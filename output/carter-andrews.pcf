@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pcf-stylesheet path="/xsl/b-2019-05-17/page.xsl" site="templates" title="HTML" extension="aspx"?>
+
+<!DOCTYPE document SYSTEM "http://commons.omniupdate.com/dtd/standard.dtd">
+<document xmlns:ouc="http://omniupdate.com/XSL/Variables">
+<headcode></headcode><!-- before closing head tag -->
+<bodycode></bodycode><!-- after opening body tag -->
+<footcode></footcode><!-- before closing body tag -->
+<ouc:info><tcf>full-width-2019-05-17.tcf</tcf><tmpl>page-2019-05-17.tmpl</tmpl></ouc:info>
+
+<ouc:properties label="metadata">
+<title>Carter Andrews</title>
+<meta name="Description" content="" />
+<meta name="Keywords" content="" />
+</ouc:properties>
+
+<ouc:properties label="config">
+<parameter section="Page Content" name="heading" type="text" group="Everyone" prompt="Page Heading" alt="Page title by default.">Carter Andrews</parameter>
+<parameter name="breadcrumb" type="text" group="Everyone" prompt="Breadcrumb" alt="Not displayed for index pages. Page title by default."></parameter>
+<parameter name="gallery-type" type="checkbox" group="Everyone" prompt="Galleries" alt="Check to display galleries as thumbnails.">
+<option value="pretty-photo" selected="false">Thumbnails</option>
+</parameter>
+
+<parameter section="Content Regions" name="maincontent" type="checkbox" group="Everyone" prompt="Main Content Region" alt="Check to display the main content region.">
+<option value="display" selected="true">Display</option>
+</parameter>
+<parameter name="three-column" type="checkbox" group="Everyone" prompt="Right Column" alt="Check to display the right column next to the main content region (third column if side nav is also displayed).">
+<option value="display" selected="true">Display</option>
+</parameter>
+<parameter name="secondary-content" type="checkbox" group="Everyone" prompt="Secondary Content" alt="Check to display the secondary content editable region.">
+<option value="display" selected="false">Display</option>
+</parameter>
+
+<parameter section="Top Image" name="top-image" type="checkbox" group="Everyone" prompt="Section Top Image" alt="Check to display the Top Image specified in the section's _props.pcf.">
+<option value="display" selected="false">Display</option>
+</parameter>
+<parameter name="top-image-region" type="checkbox" group="Everyone" prompt="Editable Region" alt="Check to make the top image section an edtiable region. (Display Section Top Image must also be checked.)">
+<option value="display" selected="false">Display</option>
+</parameter>
+
+<parameter section="Sidebar" name="display-side-nav" type="checkbox" group="Everyone" prompt="Display Side Nav" alt="Check to display the side navigation.">
+<option value="display-side-nav" selected="false">Display</option>
+</parameter>
+<parameter name="side-nav" type="checkbox" group="Everyone" prompt="Manual Side Nav" alt="Check to manually edit the side navigation (Display Side Nav must also be checked.)">
+<option value="manual" selected="false">Manual</option>
+</parameter>
+<parameter name="action-buttons" type="checkbox" group="Everyone" prompt="Action Buttons" alt="Check to display the action buttons.">
+<option value="display" selected="false">Display</option>
+</parameter>
+<parameter name="contact-info" type="checkbox" group="Everyone" prompt="Contact Info" alt="Check to display the contact info.">
+<option value="display" selected="false">Display</option>
+</parameter>
+
+<parameter section="Grid Regions" name="grid-row-1" type="checkbox" group="Everyone" prompt="Row 1" alt="Check to display the first row of editable regions.">
+<option value="display" selected="false">Display</option>
+</parameter>
+<parameter name="grid-row-2" type="checkbox" group="Everyone" prompt="Row 2" alt="Check to display the second row of editable regions.">
+<option value="display" selected="false">Display</option>
+</parameter>
+<parameter name="column-width" type="checkbox" group="Everyone" prompt="Column Width" alt="Check to render the column regions with 50%/50% width as opposed to the default 70%/30%.">
+<option value="50-50" selected="false">50/50</option>
+</parameter>
+
+<parameter section="Quick Facts" name="quick-facts" type="checkbox" group="Everyone" prompt="Display Quick Facts" alt="Check to display the quick facts.">
+<option value="display" selected="false"></option>
+</parameter>
+
+<parameter name="fact-title-1" type="text" group="Everyone" prompt="Fact Title 1" alt="Enter fact title.">FOUNDED</parameter>
+<parameter name="fact-sub-title-1" type="text" group="Everyone" prompt="Fact Subtitle 1" alt="Enter fact subtitle.">1897</parameter>
+<parameter name="fact-class-1" type="text" group="Everyone" prompt="Fact Class 1" alt="Enter fact class.">fa-hourglass</parameter>
+
+<parameter name="fact-title-2" type="text" group="Everyone" prompt="Fact Title 2" alt="Enter fact title.">AVERAGE TEMP</parameter>
+<parameter name="fact-sub-title-2" type="text" group="Everyone" prompt="Fact Subtitle 2" alt="Enter fact subtitle.">76°F</parameter>
+<parameter name="fact-class-2" type="text" group="Everyone" prompt="Fact Class 2" alt="Enter fact class.">fa-cloud</parameter>
+
+<parameter name="fact-title-3" type="text" group="Everyone" prompt="Fact Title 3" alt="Enter fact title.">LOCATION</parameter>
+<parameter name="fact-sub-title-3" type="text" group="Everyone" prompt="Fact Subtitle 3" alt="Enter fact subtitle.">San Diego, CA</parameter>
+<parameter name="fact-class-3" type="text" group="Everyone" prompt="Fact Class 3" alt="Enter fact class.">fa-map-marker</parameter>
+
+<parameter name="fact-title-4" type="text" group="Everyone" prompt="Fact Title 4" alt="Enter fact title.">UNDERGRADS</parameter>
+<parameter name="fact-sub-title-4" type="text" group="Everyone" prompt="Fact Subtitle 4" alt="Enter fact subtitle.">23,036</parameter>
+<parameter name="fact-class-4" type="text" group="Everyone" prompt="Fact Class 4" alt="Enter fact class.">fa-mortar-board</parameter>
+
+<parameter name="fact-title-5" type="text" group="Everyone" prompt="Fact Title 5" alt="Enter fact title.">TUITION (IN-STATE)</parameter>
+<parameter name="fact-sub-title-5" type="text" group="Everyone" prompt="Fact Subtitle 5" alt="Enter fact subtitle.">$17,926 ($6,766)</parameter>
+<parameter name="fact-class-5" type="text" group="Everyone" prompt="Fact Class 5" alt="Enter fact class.">fa-usd</parameter>
+
+<parameter name="fact-title-6" type="text" group="Everyone" prompt="Fact Title 6" alt="Enter fact title.">ACCEPTANCE RATE</parameter>
+<parameter name="fact-sub-title-6" type="text" group="Everyone" prompt="Fact Subtitle 6" alt="Enter fact subtitle.">31%</parameter>
+<parameter name="fact-class-6" type="text" group="Everyone" prompt="Fact Class 6" alt="Enter fact class.">fa-line-chart</parameter>
+
+<parameter section="Debug" name="debug-info" type="checkbox" group="" prompt="Debug Info" alt="Check to display the debug info.">
+<option value="display" selected="false">Display</option>
+</parameter>
+</ouc:properties>
+
+<ouc:div label="section-top" group="Everyone" button-text="Section Top">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="section-top" />
+<p>&nbsp;</p>
+</ouc:div>
+
+<ouc:div label="side-nav" group="Everyone" button-text="Side Nav">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="side-nav" />
+<ul>
+<li><a href="#">Sample</a></li>
+</ul>
+</ouc:div>
+
+<ouc:div label="maincontent" group="Everyone" button-text="Main Content"><ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="maincontent"/><table class="ou-snippet ou-new-layout-two ou-split-4 ou-grid-md"><caption>Two Columns 33% / 67%</caption>
+<thead>
+<tr class="ou-prompt">
+<th class="ou-prompt" style="width: 33%;">Column 1</th>
+<th class="ou-prompt">Column 2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="ou-content">
+<td class="ou-column-1 ou-value">
+<h3><img class="" src="{{f:45187968}}" alt="Michelle Peterson" width="768" height="768" /></h3>
+<h4>Learning Technologies Manager</h4>
+<p><i class="fa" style="font-size: 16px;"> </i>&nbsp;619-594-5852<br /><i class="fa" style="font-size: 12px;"></i> <a href="mailto:michelle.peterson@sdsu.edu" target="_blank" rel="noopener noreferrer">michelle.peterson@sdsu.edu</a><br /><i class="fa" style="font-size: 16px;"></i><span style="font-size: 1.2em;">&nbsp;</span>AH-1111A</p>
+<p><strong>Michelle&rsquo;s ITS Blog Posts</strong></p>
+<ul class="display-posts-listing">
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/kfupm-presentation/">ITS Presents on Leveraging Student Data</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/its-featured-in-campus-technology/">ITS Featured in Campus Technology</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/academic-integrity-in-difficult-times-a-sdsu-think-in/">Academic Integrity in Difficult Times: A SDSU Think-In</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/sdsu-virtual-backgrounds-pre-loaded-in-zoom/">SDSU Virtual Backgrounds pre-loaded in Zoom!</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/sdsu-virtual-backgrounds-for-zoom/">SDSU Virtual Backgrounds for Zoom</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/physical-sciences-room-130-upgrade-evaluation/">Physical Sciences, Room 130 Upgrade Evaluation</a></li>
+<li class="listing-item"><a class="title" href="https://its.sdsu.edu/associate-deans-update-its-news/">Dean&rsquo;s Update: ITS News</a></li>
+</ul>
+</td>
+<td class="ou-column-2 ou-value">
+<p><strong>Summary&nbsp;</strong></p>
+<p>As Faculty Support Specialist at Instructional Technology Services, Michelle supports faculty across the spectrum of learning environments, instructional design, and academic media at San Diego State University.</p>
+<p>Prior to working on for ITS, she was an Events &amp; Alumni Relations Coordinator for the School of Journalism &amp; Media Studies. She started her career working as a social media manager and public relations coordinator for Comic-Con International.</p>
+<p>Peterson is a 2019 learning design and technology masters alumna and a 2010 public relations alumna from San Diego State University. During her time as an undergraduate at SDSU, she was a peer advisor for the School of Journalism &amp; Media Studies, treasurer for the Public Relations Student Society of America, Associated Students representative for the PSFA College Council, and resident advisor with the Residential Education Office.</p>
+<p><strong>Education</strong><br />B.A. Journalism emphasis in Public Relations &ndash; San Diego State University (SDSU)<br />M.A. Learning Design and Technology &ndash; San Diego State University (SDSU)</p>
+<p><strong>Fun Fact</strong><br />Michelle and her husband are Oakland Raiders fans, they travel to one away game a season to visit a new city. So far they have visited Nashville, Washington D.C., Phoenix, and London.</p>
+<p><strong>Affiliations and Publications</strong></p>
+<ul>
+<li>American Red Cross, San Diego Imperial Counties &ndash; Social Media &amp; Communications Volunteer</li>
+<li>Shop with a Cop San Diego &ndash; Social Media Volunteer</li>
+<li>Extron Certified AV Associate</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 class="wysiwyg-spacer"><small class="label label-warning"><i class="glyphicon glyphicon-pencil">&nbsp;</i> Press Enter to add more content</small></h4>
+<p>&nbsp;</p></ouc:div>
+
+<ouc:div label="right-column" group="Everyone" button-text="Right Column"><ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="right-column"/><p>&nbsp;</p>
+<p>&nbsp;</p>
+{{a:251880}}</ouc:div>
+
+<ouc:div label="secondary-content" group="Everyone" button-text="Secondary Content">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="secondary-content" />
+<p>&nbsp;</p>
+</ouc:div>
+
+<ouc:div label="row-1-col-1" group="Everyone" button-text="Column 1">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="maincontent" />
+<p>&nbsp;</p>
+</ouc:div>
+
+<ouc:div label="row-1-col-2" group="Everyone" button-text="Column 2">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="maincontent" />
+<p>&nbsp;</p>
+</ouc:div>
+
+<ouc:div label="row-2-col-1" group="Everyone" button-text="Column 1">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="maincontent" />
+<p>&nbsp;</p>
+</ouc:div>
+
+<ouc:div label="row-2-col-2" group="Everyone" button-text="Column 2">
+<ouc:editor csspath="/_resources/ou/editor/business/wysiwyg.css" cssmenu="/_resources/ou/editor/business/styles.txt" wysiwyg-class="maincontent" />
+<p>&nbsp;</p>
+</ouc:div>
+
+</document>

@@ -1,0 +1,502 @@
+
+<button onclick="ShowGroup('faculty-fellow')">Faculty Fellows</button>
+<button onclick="ShowGroup('idam')">Instructional Design and Academic Media</button>
+<button onclick="ShowGroup('leadership')">Leadership</button>
+<button onclick="ShowGroup('student-assistant')">Student Assistants</button>
+<button onclick="ShowGroup('lte')">Learning Technologies and Environments</button>
+<button onclick="ShowGroup('profile')">All Staff</button>
+<script>
+    function ShowGroup(group) {
+        var divsToShow = document.getElementsByClassName(group);
+        var divsToHide = document.getElementsByClassName("profile");
+        for (var i = 0; i &lt; divsToHide.length; i++) { 
+            divsToHide[i].style.display = "none";
+        }
+        for (var i = 0; i &lt; divsToShow.length; i++) { 
+            divsToShow[i].style.display = "block";
+        }
+    }
+</script>
+
+<section style="flex-wrap: wrap; display: flex;">
+<div class="profile leadership" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/james-frazee/">
+<img width="130" height="130" title="James Frazee Associate Vice President" src="https://its.sdsu.edu/wp-content/uploads/2016/03/James-Frazee-SDSU-400x400.jpg" alt="James Frazee Associate Vice President" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/james-frazee/">
+<span >James Frazee Associate Vice President</span>
+</a>
+</div>
+<div class="profile leadership idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/sean-hauze/">
+<img width="130" height="130" title="Sean Hauze Director" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Sean-Hauze-Portrait1-400x400.jpg" alt="Sean Hauze Director" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/sean-hauze/">
+<span >Sean Hauze Director</span>
+</a>
+</div>
+<div class="profile leadership lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/rudy-arias/">
+<img width="130" height="130" title="Rudy Arias Associate Director" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Rudy-Arias-400x400.jpg" alt="RudyArias Associate Director" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/rudy-arias/">
+<span >Rudy Arias Associate Director</span>
+</a>
+</div>
+<div class="profile idam leadership lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/michelle-peterson/">
+<img width="130" height="130" title="Michelle Peterson Learning Technologies Manager" src="https://its.sdsu.edu/wp-content/uploads/2018/10/Michelle-Peterson-400x400.jpg" alt="Michelle Peterson Learning Technologies Manager" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/michelle-peterson/">
+<span >Michelle Peterson Learning Technologies Manager</span>
+</a>
+</div>
+<div class="profile idam leadership lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/aurora-velasco/">
+<img width="130" height="130" title="Aurora Velasco Learning Environments Manager" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Aurora_BW-1-1-400x400.jpg" alt="Aurora Velasco Learning Environments Manager" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/aurora-velasco/">
+<span >Aurora Velasco Learning Environments Manager</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/valerie-alexandra-faculty-fellow/">
+<img width="130" height="130" title="Valerie Alexandra Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2021/03/Valerie_768px-400x400.png" alt="Valerie Alexandra Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/valerie-alexandra-faculty-fellow/">
+<span >Valerie Alexandra Faculty Fellow</span>
+</a>
+</div>
+<div class="profile idam lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/carter-andrews-faculty-support-specialist/">
+<img width="130" height="130" title="Carter Andrews Faculty Support Specialist" src="https://its.sdsu.edu/wp-content/uploads/2020/10/Carter-AndrewsBW-scaled-400x400.jpg" alt="Carter Andrews Faculty Support Specialist" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/carter-andrews-faculty-support-specialist/">
+<span >Carter Andrews Faculty Support Specialist</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ken-arnold-faculty-fellow/">
+<img width="130" height="130" title="Ken Arnold Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Ken-200x200.png" alt="Ken Arnold Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ken-arnold-faculty-fellow/">
+<span >Ken Arnold Faculty Fellow</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/rahim-baker-ati-coordinator/">
+<img width="130" height="130" title="Rahim Baker ATI Coordinator" src="https://its.sdsu.edu/wp-content/uploads/2020/02/Rahim-Baker-BW-1-scaled-e1580934421611-400x400.jpg" alt="Rahim Baker ATI Coordinator" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/rahim-baker-ati-coordinator/">
+<span >Rahim Baker ATI Coordinator</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/harsimran-baweja-faculty-fellow/">
+<img width="130" height="130" title="Harsimran Baweja Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2018/10/Harsimran-Baweja-400x400.jpg" alt="Harsimran Baweja Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/harsimran-baweja-faculty-fellow/">
+<span >Harsimran Baweja Faculty Fellow</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/marcie-bober-michel-faculty-fellow/">
+<img width="130" height="130" title="Marcie Bober-Michel Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2018/10/Marcie-Bober-Michel-400x400.jpg" alt="Marcie Bober-Michel Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/marcie-bober-michel-faculty-fellow/">
+<span >Marcie Bober-Michel Faculty Fellow</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/nathan-bowser-technology-student-assistant-coordinator/">
+<img width="130" height="130" title="Nathan Bowser Technology Student Assistant Coordinator" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Nathan-Bowser-BW-1-400x400.jpg" alt="Nathan Bowser Technology Student Assistant Coordinator" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/nathan-bowser-technology-student-assistant-coordinator/">
+<span >Nathan Bowser Technology Student Assistant Coordinator</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/antonio-deninno-learning-spaces/">
+<img width="130" height="130" title="Antonio DeNinno Learning Environments" src="https://its.sdsu.edu/wp-content/uploads/2016/03/antonio-400x400.jpg" alt="Antonio DeNinno Learning Environments" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/antonio-deninno-learning-spaces/">
+<span >Antonio DeNinno Learning Environments</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/phil-denman-instructional-designer/">
+<img width="130" height="130" title="Phil Denman Instructional Design" src="https://its.sdsu.edu/wp-content/uploads/2016/03/phil-400x400.jpg" alt="Phil Denman Instructional Design" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/phil-denman-instructional-designer/">
+<span >Phil Denman Instructional Design</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ethan-garcia-video-production/">
+<img width="130" height="130" title="Ethan Garcia Video Production" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Ethan-Garcia-400x400.jpg" alt="Ethan Garcia Video Production" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ethan-garcia-video-production/">
+<span >Ethan Garcia Video Production</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/stan-greene-learning-spaces/">
+<img width="130" height="130" title="Stan Greene Learning Environments" src="https://its.sdsu.edu/wp-content/uploads/2016/03/stan-1-400x400.jpg" alt="Stan Greene Learning Environments" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/stan-greene-learning-spaces/">
+<span >Stan Greene Learning Environments</span>
+</a>
+</div>
+<div class="profile leadership" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/maureen-guarcello/">
+<img width="130" height="130" title="Maureen Guarcello Research, Analytics, and Communications Specialist" src="https://its.sdsu.edu/wp-content/uploads/2016/03/GuarcelloBW-400x400.jpg" alt="Maureen Guarcello Research, Analytics, and Communications Specialist" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/maureen-guarcello/">
+<span >Maureen Guarcello Research, Analytics, and Communications Specialist</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kate-holvoet-faculty-fellow/">
+<img width="130" height="130" title="Kate Holvoet Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2018/10/Kate-Holvoet-400x400.jpg" alt="Kate Holvoet Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kate-holvoet-faculty-fellow/">
+<span >Kate Holvoet Faculty Fellow</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/helina-hoyt-faculty-fellow/">
+<img width="130" height="130" title="Helina Hoyt Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2021/03/Helina_768px-400x400.png" alt="Helina Hoyt Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/helina-hoyt-faculty-fellow/">
+<span >Helina Hoyt Faculty Fellow</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/katie-hughes-faculty-fellow/">
+<img width="130" height="130" title="Katie Hughes Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Katie-Hughes-SDSU-ITS-400x400.jpg" alt="Katie Hughes Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/katie-hughes-faculty-fellow/">
+<span >Katie Hughes Faculty Fellow</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kevin-krick-learning-spaces/">
+<img width="130" height="130" title="Kevin Krick Learning Environments" src="https://its.sdsu.edu/wp-content/uploads/2019/09/Copy-of-Kevin-Krick-BW-400x400.jpg" alt="Kevin Krick Learning Environments" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kevin-krick-learning-spaces/">
+<span >Kevin Krick Learning Environments</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/mark-laumakis-faculty-fellow/">
+<img width="130" height="130" title="Mark Laumakis Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2016/08/Mark-Laumakis-SDSU-400x400.jpg" alt="Mark Laumakis Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/mark-laumakis-faculty-fellow/">
+<span >Mark Laumakis Faculty Fellow</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/monika-lemp-graphic-design/">
+<img width="130" height="130" title="Monika Lemp Graphic Design" src="https://its.sdsu.edu/wp-content/uploads/2016/03/monika-400x400.jpg" alt="Monika Lemp Graphic Design" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/monika-lemp-graphic-design/">
+<span >Monika Lemp Graphic Design</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/jiong-li-graphic-design/">
+<img width="130" height="130" title="Jiong Li Graphic Design" src="https://its.sdsu.edu/wp-content/uploads/2017/08/Jiong-Li-SDSU-400x400.jpg" alt="Jiong Li Graphic Design" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/jiong-li-graphic-design/">
+<span >Jiong Li Graphic Design</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/andrianna-martinez/">
+<img width="130" height="130" title="Andrianna Martinez Faculty Support Specialist" src="https://its.sdsu.edu/wp-content/uploads/2019/11/Andrianna_BW-400x400.jpg" alt="Andrianna Martinez Faculty Support Specialist" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/andrianna-martinez/">
+<span >Andrianna Martinez Faculty Support Specialist</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/boun-moua-learning-spaces/">
+<img width="130" height="130" title="Boun Moua Learning Environments" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Boun-Moua-SDSU-400x400.jpg" alt="Boun Moua Learning Environments" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/boun-moua-learning-spaces/">
+<span >Boun Moua Learning Environments</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/thai-nguyen/">
+<img width="130" height="130" title="Thai Nguyen Engineering &amp; Interdisciplinary Science Coordinator" src="https://its.sdsu.edu/wp-content/uploads/2019/03/Thai-Nguyen-400x400.jpg" alt="Thai Nguyen Engineering &amp; Interdisciplinary Science Coordinator" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/thai-nguyen/">
+<span >Thai Nguyen Engineering &amp; Interdisciplinary Science Coordinator</span>
+</a>
+</div>
+<div class="profile lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/david-poddig/">
+<img width="130" height="130" title="David Poddig Learning Environments" src="https://its.sdsu.edu/wp-content/uploads/2016/03/dave-400x400.jpg" alt="David Poddig Learning Environments" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/david-poddig/">
+<span >David Poddig Learning Environments</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/elizabeth-pollard-faculty-fellow/">
+<img width="130" height="130" title="Elizabeth Pollard Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2019/08/Pollard_BW_Square1300x-400x400.jpg" alt="Elizabeth Pollard Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/elizabeth-pollard-faculty-fellow/">
+<span >Elizabeth Pollard Faculty Fellow</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/jon-rizzo-instructional-designer/">
+<img width="130" height="130" title="Jon Rizzo Instructional Design" src="https://its.sdsu.edu/wp-content/uploads/2016/03/john-400x400.jpg" alt="Jon Rizzo Instructional Design" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/jon-rizzo-instructional-designer/">
+<span >Jon Rizzo Instructional Design</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/nathian-rodriguez-faculty-fellow/">
+<img width="130" height="130" title="Nathian Rodriguez Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2020/12/nathian-rodriguez--400x400.png" alt="Nathian Rodriguez Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/nathian-rodriguez-faculty-fellow/">
+<span >Nathian Rodriguez Faculty Fellow</span>
+</a>
+</div>
+<div class="profile leadership idam lte" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kao-saechao/">
+<img width="130" height="130" title="Kao Saechao Systems Lead" src="https://its.sdsu.edu/wp-content/uploads/2016/03/kao-400x400.jpg" alt="Kao Saechao Systems Lead" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kao-saechao/">
+<span >Kao Saechao Systems Lead</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/melissa-soto-faculty-fellow/">
+<img width="130" height="130" title="Melissa Soto Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2019/08/Melissa-Soto-768-768-400x400.jpg" alt="Melissa Soto Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/melissa-soto-faculty-fellow/">
+<span >Melissa Soto Faculty Fellow</span>
+</a>
+</div>
+<div class="profile faculty-fellow" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/stuart-voytilla-faculty-fellow/">
+<img width="130" height="130" title="Stuart Voytilla Faculty Fellow" src="https://its.sdsu.edu/wp-content/uploads/2018/10/Stuart-Voytilla-400x400.jpg" alt="Stuart Voytilla Faculty Fellow" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/stuart-voytilla-faculty-fellow/">
+<span >Stuart Voytilla Faculty Fellow</span>
+</a>
+</div>
+<div class="profile leadership" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/trish-whited-edwards-administrative-analyst/">
+<img width="130" height="130" title="Trish Whited Edwards Administrative Analyst" src="https://its.sdsu.edu/wp-content/uploads/2017/06/Trish-Whited-Edwards-SDSU-400x400.jpg" alt="Trish Whited Edwards Administrative Analyst" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/trish-whited-edwards-administrative-analyst/">
+<span >Trish Whited Edwards Administrative Analyst</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/linda-woods-instructional-design/">
+<img width="130" height="130" title="Linda Woods Instructional Design" src="https://its.sdsu.edu/wp-content/uploads/2016/03/lynda-400x400.jpg" alt="Linda Woods Instructional Design" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/linda-woods-instructional-design/">
+<span >Linda Woods Instructional Design</span>
+</a>
+</div>
+<div class="profile idam" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/eric-zentmyer/">
+<img width="130" height="130" title="Eric Zentmyer Video Production" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Eric-Zentmyer-SDSU-400x400.png" alt="Eric Zentmyer Video Production" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/eric-zentmyer/">
+<span >Eric Zentmyer Video Production</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/zaynab-abdi-student-assistant/">
+<img width="130" height="130" title="Zaynab Abdi Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Zaynab-Abdi-BW-400x400.jpg" alt="Zaynab Abdi Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/zaynab-abdi-student-assistant/">
+<span >Zaynab Abdi Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ryan-bass-student-assistant/">
+<img width="130" height="130" title="Ryan Bass Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/StaffDirectoryImage-200x200.jpg" alt="Ryan Bass Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ryan-bass-student-assistant/">
+<span >Ryan Bass Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/shweta-chauhan-student-assistant/">
+<img width="130" height="130" title="Shweta Chauhan Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/10/Shweta-Chauhan-BW-scaled-400x400.jpg" alt="Shweta Chauhan Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/shweta-chauhan-student-assistant/">
+<span >Shweta Chauhan Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/dylan-chhong/">
+<img width="130" height="130" title="Dylan Chhong Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Dylan-Chhong-BW-400x400.jpg" alt="Dylan Chhong Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/dylan-chhong/">
+<span >Dylan Chhong Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/roel-cruz-student-assistant/">
+<img width="130" height="130" title="Roel Cruz Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Roel-Cruz-BW-e1631731959304-400x400.jpg" alt="Roel Cruz Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/roel-cruz-student-assistant/">
+<span >Roel Cruz Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kahaan-desai-student-assistant/">
+<img width="130" height="130" title="Kahaan Desai Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Kahaan-Desai-BW-400x400.jpg" alt="Kahaan Desai Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/kahaan-desai-student-assistant/">
+<span >Kahaan Desai Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/manny-guinto-student-assistant/">
+<img width="130" height="130" title="Manny Guinto Student Lead" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Emmanuel-GuintoBW-400x400.jpg" alt="Manny Guinto Student Lead" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/manny-guinto-student-assistant/">
+<span >Manny Guinto Student Lead</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/evan-heidel-student-assistant/">
+<img width="130" height="130" title="Evan Heidel Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Evan-Heidel-BW-400x400.jpg" alt="Evan Heidel Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/evan-heidel-student-assistant/">
+<span >Evan Heidel Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/erick-hernandez-student-assistant/">
+<img width="130" height="130" title="Erick Hernandez Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2019/11/ErickHernandez-BW-Square-400x400.jpg" alt="Erick Hernandez Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/erick-hernandez-student-assistant/">
+<span >Erick Hernandez Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/daniel-izarraras-student-assistant/">
+<img width="130" height="130" title="Daniel Izarraras Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2020/08/DIzarraras-400x400.jpg" alt="Daniel Izarraras Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/daniel-izarraras-student-assistant/">
+<span >Daniel Izarraras Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/brendan-julian-student-assistant/">
+<img width="130" height="130" title="Brendan Julian Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/03/Brendan-BW-scaled-400x400.jpg" alt="Brendan Julian Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/brendan-julian-student-assistant/">
+<span >Brendan Julian Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/zach-lapage-student-assistant/">
+<img width="130" height="130" title="Zach LaPage Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Zachary-Lapage-BW-400x400.jpg" alt="Zach LaPage Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/zach-lapage-student-assistant/">
+<span >Zach LaPage Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ash-liyanagoda-student-assistant/">
+<img width="130" height="130" title="Ash Liyanagoda Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Ashvin-Liyanagoda-BW-400x400.jpg" alt="Ash Liyanagoda Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ash-liyanagoda-student-assistant/">
+<span >Ash Liyanagoda Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/brittney-primer-student-assistant/">
+<img width="130" height="130" title="Brittney Primer Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Brittney-Primer-BW-scaled-400x400.jpg" alt="Brittney Primer Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/brittney-primer-student-assistant/">
+<span >Brittney Primer Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/andrea-sanchez-student-assistant/">
+<img width="130" height="130" title="Andrea Sanchez Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Andrea-scaled-400x400.jpg" alt="Andrea Sanchez Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/andrea-sanchez-student-assistant/">
+<span >Andrea Sanchez Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/chantay-taylor-student-assistant/">
+<img width="130" height="130" title="Chantay Taylor Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2019/09/Copy-of-Chantay_BW-400x400.jpg" alt="Chantay Taylor Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/chantay-taylor-student-assistant/">
+<span >Chantay Taylor Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/sawyer-thompson-student-assistant/">
+<img width="130" height="130" title="Sawyer Thompson Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Sawyer-Thompson-BW-400x400.jpg" alt="Sawyer Thompson Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/sawyer-thompson-student-assistant/">
+<span >Sawyer Thompson Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/danny-tisnado-student-assistant/">
+<img width="130" height="130" title="Danny Tisnado Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Danny-BW-1-400x400.jpg" alt="Danny Tisnado Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/danny-tisnado-student-assistant/">
+<span >Danny Tisnado Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/esmeralda-trujillo-student-assistant/">
+<img width="130" height="130" title="Esmeralda Trujillo Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/03/Esmerelda-BW-scaled-400x400.jpg" alt="Esmeralda Trujillo Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/esmeralda-trujillo-student-assistant/">
+<span >Esmeralda Trujillo Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ernesto-villanueva-student-assistant/">
+<img width="130" height="130" title="Ernesto Villanueva Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/StaffDirectoryImage-200x200.jpg" alt="Ernesto Villanueva Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/ernesto-villanueva-student-assistant/">
+<span >Ernesto Villanueva Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/anna-williams-student-assistant/">
+<img width="130" height="130" title="Anna Sophia Williams Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Anna-Williams-BW-1-scaled-400x400.jpg" alt="Anna Sophia Williams Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/anna-williams-student-assistant/">
+<span >Anna Sophia Williams Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/claryssa-wilson-student-assistant/">
+<img width="130" height="130" title="Claryssa Wilson Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2016/03/Claryssa-Wilson-BW-400x400.jpg" alt="Claryssa Wilson Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/claryssa-wilson-student-assistant/">
+<span >Claryssa Wilson Student Assistant</span>
+</a>
+</div>
+<div class="profile student-assistant" style="text-align: center; margin: 5px; width: 130px;">
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/mirza-yeahia-student-assistant/">
+<img width="130" height="130" title="Mirza Ishraq Yeahia Student Assistant" src="https://its.sdsu.edu/wp-content/uploads/2021/09/Mirza-Ishraq-Yeahia-BW-400x400.jpg" alt="Mirza Ishraq Yeahia Student Assistant" />
+</a>
+<a style="text-decoration: none;"  href="https://its.sdsu.edu/mirza-yeahia-student-assistant/">
+<span >Mirza Ishraq Yeahia Student Assistant</span>
+</a>
+</div>
+</section>
